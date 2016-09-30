@@ -20,7 +20,7 @@ body {
     height: 200px;
 }
 .container {
-    max-width: 60px;
+    max-width: 200px;
     margin: 0 auto;
     font-family: sans serif;
     padding-top: 60px;
