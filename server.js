@@ -15,7 +15,7 @@ app.get('/Article-one',function(req,res)
     });
 app.get('/Article-two',function(req,res)
    {
-       res.sendFile('Article two requested and it will be saved here');
+       res.send('Article two requested and it will be saved here');
    }
 );
 
