@@ -36,7 +36,7 @@ var articles = {
     content:  `
      <p>This is the content of the third article.This is the content of the second article.This is the content of the second article.
      `
-     },
+     }
 };
 
 function createTemplate(data){
