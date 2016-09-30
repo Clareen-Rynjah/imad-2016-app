@@ -20,7 +20,7 @@ var ArticleOne = {
 var htmlTemplate = `<html>
   <head>
       <title>
-          Article One
+          ${title}
       </title>
       <meta name="viewport" content="width+device-width, initial-scale=1" />
       <link href="/ui/style.css" rel="stylesheet" />
@@ -32,14 +32,13 @@ var htmlTemplate = `<html>
           </div>
           <br/>
           <h3> 
-               Article One
+               ${heading}
           </h3>
           <div> 
-              Sep 30,2016
+              ${date}
           </div>
           <div>
-              <p>This is the content of the first article
-              </p>
+              ${content}
               <p>
                   This is another content of the first article.
               </p>
