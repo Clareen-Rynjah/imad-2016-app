@@ -15,7 +15,7 @@ app.get('/Article-one',function(req,res)
     });
 app.get('/Article-two',function(req,res)
    {
-       res.send('Article two requested and it will be saved here');
+       res.sendFile(path.join(__dirname,'ui','Article-two.html'));
    }
 );
 
