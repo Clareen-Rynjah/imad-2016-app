@@ -11,11 +11,11 @@ app.get('/', function (req, res) {
     
 app.get('/Article-one',function(req,res)
     {
-        res.send('Article one requested and it will be saved here');
+        res.sendFile(path.joib(__dirname,'ui','Article-one.html');
     });
 app.get('/Article-two',function(req,res)
    {
-       res.send('Article two requested and it will be saved here');
+       res.sendFile('Article two requested and it will be saved here');
    }
 );
 
