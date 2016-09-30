@@ -9,8 +9,23 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/Article-one',function(req,re){res.send('Article one requested and it will be saved here');});
-app.get('/ui/style.css', function (req, res) {
+app.get('/Article-one',function(req,re){
+    res.send('Article one requested and it will be saved here');
+});
+
+app.get('/Article-two',function(req,res)
+   {
+       res.send('Article two requested and it will be saved here');
+   }
+);
+
+app.get('/Article-three',function(req,res)
+    {
+        res.send('Article three requesed and it will be saved here');
+    });
+    
+app.get('/ui/style.css', function (req, res)
+{
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
