@@ -8,9 +8,9 @@ app.use(morgan('combined'));
 var ArticleOne = {
     title: 'Article One | Clareen Rynjah',
     heading: 'Article One',
-    date:'Sep 30, 2016'
+    date:'Sep 30, 2016',
     content:  `
-     <p>This is the content of the first articl.e.This is the content of the first articleThis is the content of the first article
+     <p>This is the content of the first article.This is the content of the first articleThis is the content of the first article
      </p>
      <p>
                   This is another content of the first article. This is another content of the first article. This is another content of the first article.
