@@ -63,7 +63,8 @@ app.get('/Article-one',function(req,res)
     });
 app.get('/Article-two',function(req,res)
    {
-       res.send(createTemplate(Article-two));
+       
+       res.sendFile(path.join(__dirname,'ui','Article-two.html'));
    }
 );
 
