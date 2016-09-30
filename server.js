@@ -5,6 +5,19 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var content = {
+    title: 'Article One | Clareen Rynjah',
+    heading: 'Article One',
+    date:'Sep 30, 2016'
+    content:  `
+              <p>This is the content of the first articl.e.This is the content of the first articleThis is the content of the first article
+              </p>
+              <p>
+                  This is another content of the first article. This is another content of the first article. This is another content of the first article.
+              </p>
+          `
+};
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
