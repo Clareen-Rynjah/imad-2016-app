@@ -1,7 +1,7 @@
 console.log('Loaded!');
-var element =document.getElementbyId('main-text');
+var element =document.getElementById('main-text');
 
-element.InnerHTML='New value';
+element.innerHTML='New value';
 
 var img=document.getElementbyId('modi');
 marinLeft=0;
